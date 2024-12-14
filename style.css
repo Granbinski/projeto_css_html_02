@@ -40,7 +40,7 @@ div p{
 
 li{
   list-style-type: none;
-  padding:10px 10px 15px 0;
+  padding:10px 10px 15px 10px;
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
@@ -53,4 +53,39 @@ li{
   border-radius: 10px;
   margin-right: 10px;
   box-shadow: 0 0 10px rgb(163, 159, 159);
+}
+
+.list-item__name{
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  margin:0;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.list-item__email{
+  font-size: 16px;
+  color: rgb(83, 79, 79);
+  margin: 0;
+  margin-left: 5px;
+}
+
+.list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.list-item__action {
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+  margin-left: auto; /* Empurra o conteúdo para a direita */
+  gap: 30px; /* Espaçamento entre os ícones */
+  opacity: 70%;
+}
+
+.list-item__action:hover{
+  opacity: 100%;
 }
