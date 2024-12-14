@@ -26,7 +26,30 @@ div p{
 .list-wrapper{
   background-color: white;
   width: 90%;
-  max-width: 400px;
-  max-width: 400px;
+  max-width: 500px;
+  max-height: 400px;
   overflow-y: auto;
+  height: 50%;
+  border-radius:5px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.list-w{
+  display: flex
+}
+
+li{
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.icons img {
+  width: 24px; 
+  height: 24px; 
+}
+
+.perfil{
+  border-radius: 10px;
+  margin-right: 10px;
 }
