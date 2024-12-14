@@ -40,7 +40,7 @@ div p{
 
 li{
   list-style-type: none;
-  padding: 10px;
+  padding:10px 10px 15px 0;
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
@@ -52,4 +52,5 @@ li{
 .perfil{
   border-radius: 10px;
   margin-right: 10px;
+  box-shadow: 0 0 10px rgb(163, 159, 159);
 }
